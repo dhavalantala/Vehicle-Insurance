@@ -92,7 +92,7 @@ app.py / demo.py
             MODEL_BUCKET_NAME = "my-model-mlopsproj"
             MODEL_PUSHER_S3_KEY = "model-registry"
       * Go to S3 service >> Create bucket >> Region: us-east-1 >> General purpose >>
-        Bucket Name: "my-model-mlopsproj" >> uncheck: "Block all public access" and acknowledge >>
+        Bucket Name: "my-model-mlopsproj-1" >> uncheck: "Block all public access" and acknowledge >>
         Hit Create Bucket
       * Now inside "src.aws_storage" code needs to be added for the configurations needed to pull 
         and push model from AWS S3 bucket. 
