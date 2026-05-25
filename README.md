@@ -314,7 +314,7 @@ http://<ec2-public-ip>:5080
 
 **Example prediction request:**
 ```bash
-curl -X POST http://<host>:5080/predict \
+curl -X POST http://<host>:5000/predict \
   -H "Content-Type: application/json" \
   -d '{
     "age": 35,
