@@ -33,7 +33,7 @@
     to connect with DB, fetch data in key-val format and transform that to df >>
     add code to entity.config_entity.py file till DataIngestionConfig class >>
     add code to entity.artifact_entity.py file till DataIngestionArtifact class >>
-    add code to components.data_ingestion.py file >> add code to training pipeline >> 
+    add code to components.data_ingestion.py file >> add code pipeline to training pipeline >> 
     run demo.py (set mongodb connection url first, see next step)
 18. To setup the connection url on mac(also work for windows), open bash/powershell terminal and run below command:
                         *** For Bash ***
