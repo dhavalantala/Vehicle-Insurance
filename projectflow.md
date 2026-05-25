@@ -26,6 +26,14 @@
 15. Write the exception file and test it on demo.py
 16. EDA and Feature Engg notebook added.
 
+----------------------------------------------- Work Flow -----------------------------------------------
+Constant
+config_entity
+artifact_entity
+component
+pipeline
+app.py / demo.py 
+
 ----------------------------------------------- Data Ingestion -----------------------------------------------
 17. Before we work on "Data Ingestion" component >> Declare variables within constants.__init__.py file >> 
     add code to configuration.mongo_db_connections.py file and define the func for mondodb connection >> 
